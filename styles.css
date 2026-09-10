@@ -667,13 +667,15 @@ p {
 .about-image {
   width: 100%;
   aspect-ratio: 4/3;
-  background: var(--bg-card);
-  border: 1px solid var(--border-color);
   border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-muted);
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* ----- FAQ Section ----- */
