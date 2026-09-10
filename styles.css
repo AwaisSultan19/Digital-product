@@ -315,15 +315,9 @@ p {
 .book-cover {
   width: 220px;
   height: 320px;
-  background: var(--bg-card);
   border-radius: 8px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 24px;
-  text-align: center;
+  overflow: hidden;
   border: 1px solid var(--border-color);
   transition: transform var(--transition-normal);
 }
@@ -332,24 +326,10 @@ p {
   transform: translateY(-8px);
 }
 
-.book-cover-title {
-  font-size: 1.1rem;
-  font-weight: 700;
-  margin-bottom: 8px;
-  color: var(--text-primary);
-}
-
-.book-cover-subtitle {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-}
-
-.book-cover-brand {
-  margin-top: auto;
-  font-size: 0.7rem;
-  color: var(--orange-primary);
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
+.book-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .book-cover.accent {
