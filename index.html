@@ -14,7 +14,7 @@
   <meta property="og:description" content="Practical ebooks for solo builders, indie hackers, creators, developers, and anyone building alone.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://brevono.com">
-  <meta property="og:image" content="https://brevono.com/og-image.png">
+  <meta property="og:image" content="https://brevono.com/product/playbook-cover.png">
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
@@ -27,7 +27,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   
   <!-- Styles -->
   <link rel="stylesheet" href="styles.css">
@@ -46,7 +46,7 @@
         <a href="#products" class="nav-cta">Get the Books</a>
       </div>
       
-      <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+      <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
         <span></span>
         <span></span>
         <span></span>
@@ -58,31 +58,31 @@
   <section class="hero" id="hero">
     <div class="container">
       <div class="hero-content">
-        <span class="hero-badge">Digital Books for Solo Builders</span>
+        <span class="hero-eyebrow">Digital Books for Solo Builders</span>
         
-        <h1>Build Alone.<br><span>Stay Consistent.</span><br>Keep Going.</h1>
+        <h1 class="hero-title">Build Alone.<br><em>Stay Consistent.</em><br>Keep Going.</h1>
         
         <p class="hero-subtitle">
-          Two practical ebooks for people building their careers, products, businesses, and lives without a team behind them.
+          A practical playbook for AI builders who need their first customer—worksheets, outreach scripts, and a 7-day plan you can follow alone.
         </p>
         
         <div class="hero-cta">
-          <a href="#products" class="btn btn-primary">Get the Ebooks</a>
-          <a href="#products" class="btn btn-secondary">Explore the Books</a>
-          <a href="BuildInPublic_Part1_Editorial.pdf" class="btn btn-secondary" target="_blank">Preview Free Sample</a>
+          <a href="https://awaissultan.lemonsqueezy.com/checkout/buy/ba541e6b-8a7b-4fd0-8641-0e3fe145d4ef" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Get the Playbook</a>
+          <a href="#preview" class="btn btn-secondary">Explore the Book</a>
+          <button type="button" class="btn btn-secondary js-open-pdf-preview" data-pdf-src="product/playbook-preview.pdf">Preview Free Sample</button>
         </div>
         
         <div class="hero-trust">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <polyline points="20 6 9 17 4 12"></polyline>
           </svg>
-          <span>Instant digital access • Read anywhere • Built for solo builders</span>
+          <span>Instant digital access · Read anywhere · Built for solo builders</span>
         </div>
       </div>
       
       <div class="hero-books">
         <div class="book-cover accent">
-          <img src="YouDontNeedToCode_Ebook-1.png" alt="You Don't Need to Code - Ebook Cover">
+          <img src="product/playbook-cover.png" alt="The First Customer Playbook for AI Builders — ebook cover">
         </div>
       </div>
     </div>
@@ -92,45 +92,44 @@
   <section class="section products" id="products">
     <div class="container">
       <div class="section-header">
-        <span class="section-label">The Books</span>
-        <h2>You Don't Need to Code</h2>
+        <span class="section-label">The Book</span>
+        <h2>The First Customer Playbook for AI Builders</h2>
         <p>
-          Build and launch your first SaaS using AI — from idea to first paying user. No coding experience required.
+          Built an AI app but have no customers? Practical worksheets, outreach scripts, and a 7-day action plan to find your first buyers.
         </p>
       </div>
       
       <div class="products-grid">
-        <!-- Book 3 -->
         <div class="product-card">
           <div class="product-cover">
-            <img src="YouDontNeedToCode_Ebook-1.png" alt="You Don't Need to Code - Ebook Cover">
+            <img src="product/playbook-cover.png" alt="The First Customer Playbook for AI Builders — ebook cover">
           </div>
 
-          <h3>YOU DON'T NEED TO CODE</h3>
-          <p class="subtitle">How to Build and Launch Your First SaaS Using AI — From Idea to First Paying User</p>
+          <div class="product-body">
+          <h3>The First Customer Playbook</h3>
+          <p class="subtitle">For AI Builders Who Need Their First Customer — Not Just Another App</p>
 
           <p>
-            A step-by-step guide to building and launching your first SaaS product using AI tools — no coding experience required. Go from idea to your first paying customer.
+            Built an AI app but have no customers? Get practical worksheets, outreach scripts, and a 7-day action plan to find and approach your first potential buyers.
           </p>
 
           <ul class="product-features">
-            <li>Build SaaS products without writing code</li>
-            <li>Leverage AI tools for development</li>
-            <li>Go from idea to launch step by step</li>
-            <li>Get your first paying user</li>
+            <li>Worksheets to clarify who to reach and why they'll care</li>
+            <li>Outreach scripts you can adapt and send</li>
+            <li>A focused 7-day action plan</li>
+            <li>Steps to find and approach first potential buyers</li>
           </ul>
 
           <div class="product-price">
-            <span class="currency">$</span>9
-            <span class="note">One-time purchase • Instant access</span>
+            <span class="currency">$</span>9<span class="price-cents">.99</span>
+            <span class="note">One-time purchase · Instant access</span>
           </div>
 
-          <a href="https://awaissultan.lemonsqueezy.com/checkout/buy/cc8ee15b-76ce-4a87-94dc-188eab1005e3" class="btn btn-primary" target="_blank">
-            Get the Book
+          <a href="https://awaissultan.lemonsqueezy.com/checkout/buy/ba541e6b-8a7b-4fd0-8641-0e3fe145d4ef" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+            Get the Playbook
           </a>
+          </div>
         </div>
-
-
       </div>
     </div>
   </section>
@@ -228,7 +227,7 @@
   </section>
 
   <!-- What You'll Get Section -->
-  <section class="section" id="what-you-get" style="background: var(--bg-secondary);">
+  <section class="section section-surface" id="what-you-get">
     <div class="container">
       <div class="section-header">
         <span class="section-label">What You'll Get</span>
@@ -302,56 +301,67 @@
       <div class="preview-content">
         <div>
           <div class="preview-cover">
-            <img src="YouDontNeedToCode_Ebook-1.png" alt="You Don't Need to Code - Ebook Cover">
+            <img src="product/playbook-cover.png" alt="The First Customer Playbook for AI Builders — ebook cover">
           </div>
           
-          <div class="preview-pages">
-            <div class="preview-page">Chapter 1</div>
-            <div class="preview-page">Chapter 2</div>
-            <div class="preview-page">Chapter 3</div>
-            <div class="preview-page">Chapter 4</div>
+          <div class="preview-pages preview-pages--images">
+            <figure class="preview-page">
+              <img src="product/preview-page-1.png" alt="Preview page from the playbook — customer discovery worksheet">
+            </figure>
+            <figure class="preview-page preview-page--interactive">
+              <button type="button" class="preview-page__btn js-open-pdf-preview" data-pdf-src="product/playbook-preview.pdf" aria-label="Open playbook PDF preview">
+                <img src="product/preview-page-2.png" alt="Preview page from the playbook — outreach guidance">
+                <span class="preview-page__hint">Open sample PDF</span>
+              </button>
+            </figure>
+            <figure class="preview-page">
+              <img src="product/preview-page-3.png" alt="Preview page from the playbook — 7-day action plan">
+            </figure>
           </div>
         </div>
         
         <div class="preview-info">
-          <h3>No Code? No Problem.</h3>
+          <h3>Customers Before Features</h3>
           <p>
-            This book shows you exactly how to build and launch a SaaS product using AI tools — even if you've never written a single line of code. Go from idea to your first paying customer.
+            If you've built with AI but haven't talked to buyers yet, this playbook gives you structure: who to reach, what to say, and what to do each day for a week.
           </p>
           
           <ul class="preview-list">
-            <li>Step-by-step guide to building with AI</li>
-            <li>Real examples and actionable strategies</li>
-            <li>From idea validation to launch</li>
-            <li>Get your first paying user fast</li>
+            <li>Practical worksheets for customer discovery</li>
+            <li>Outreach scripts you can use immediately</li>
+            <li>A 7-day plan to stay consistent</li>
+            <li>Clear steps toward your first potential buyers</li>
           </ul>
           
-          <a href="#products" class="btn btn-primary">Get the Book</a>
+          <a href="https://awaissultan.lemonsqueezy.com/checkout/buy/ba541e6b-8a7b-4fd0-8641-0e3fe145d4ef" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Get the Playbook</a>
+          <button type="button" class="btn btn-secondary js-open-pdf-preview" data-pdf-src="product/playbook-preview.pdf">Preview Free Sample</button>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- About Section -->
-  <section class="section" id="about">
+  <!-- Who Built This? -->
+  <section class="section who-built" id="who-built">
     <div class="container">
-      <div class="about-content">
-        <div class="about-text">
-          <span class="section-label">About</span>
-          <h3>Written by Someone Who Gets It</h3>
+      <div class="who-built__inner">
+        <div class="who-built__layout">
+          <div class="who-built__media">
+            <img src="my%20pic.jpg" alt="Tommy Hayes" width="120" height="120" loading="lazy" decoding="async">
+          </div>
+          <div class="who-built__content">
+            <h2>Who Built This?</h2>
+            <div class="who-built__prose">
           <p>
-            These books come from the reality of building alone—the late nights, the doubt, the silence of working without a team. They're written for people who understand that consistency is harder than inspiration.
+            I'm Tommy Hayes, a tech enthusiast and indie hacker. I've spent 7 years in tech, and over the past year, I've worked full-time on building SaaS products and exited two of them.
           </p>
           <p>
-            No fake success stories. No made-up credentials. Just honest perspectives on what it actually takes to keep going when you're the only one in the room.
+            Now, I'm focusing on marketing, customer acquisition, and building my personal brand. After spending so much time building products, I want to share practical experiences, lessons, and resources that help other solo builders turn their ideas into real businesses.
           </p>
           <p>
-            Brevono exists to create practical resources for people who build alone. That's it.
+            I created this playbook to help AI builders move beyond coding, understand their customers, and take practical steps toward finding their first paying customer.
           </p>
-        </div>
-        
-        <div class="about-image">
-          <img src="upscalemedia-transformed (1).png" alt="About Brevono">
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -463,11 +473,11 @@
   <!-- Final CTA Section -->
   <section class="section cta-section">
     <div class="container">
-      <h2>You're Building Alone.<br><span>You Don't Have To Figure Everything Out Alone.</span></h2>
+      <h2>You're Building Alone.<br><em>You Don't Have To Figure Everything Out Alone.</em></h2>
       <p>
-        Two practical ebooks to help you stay consistent, navigate isolation, and keep going when building alone gets hard.
+        A practical playbook to help you find your first customers, stay consistent with outreach, and keep going when building alone gets hard.
       </p>
-      <a href="#products" class="btn btn-primary">Get the Books</a>
+      <a href="https://awaissultan.lemonsqueezy.com/checkout/buy/ba541e6b-8a7b-4fd0-8641-0e3fe145d4ef" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Get the Playbook</a>
     </div>
   </section>
 
@@ -496,9 +506,8 @@
         <div class="footer-links">
           <h4>Books</h4>
           <ul>
-            <li><a href="#products">The Builder's Mindset</a></li>
-            <li><a href="#products">The Solo Builder</a></li>
-            <li><a href="#products">Get Both Books</a></li>
+            <li><a href="https://awaissultan.lemonsqueezy.com/checkout/buy/ba541e6b-8a7b-4fd0-8641-0e3fe145d4ef" target="_blank" rel="noopener noreferrer">The First Customer Playbook</a></li>
+            <li><a href="#products">View on Brevono</a></li>
           </ul>
         </div>
       </div>
@@ -508,6 +517,19 @@
       </div>
     </div>
   </footer>
+
+  <div class="pdf-modal" id="pdfPreviewModal" hidden>
+    <div class="pdf-modal__backdrop" data-close-pdf tabindex="-1" aria-hidden="true"></div>
+    <div class="pdf-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="pdfModalTitle">
+      <div class="pdf-modal__header">
+        <h2 id="pdfModalTitle">The First Customer Playbook — Preview</h2>
+        <button type="button" class="pdf-modal__close" data-close-pdf aria-label="Close PDF preview">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <iframe class="pdf-modal__frame" title="The First Customer Playbook for AI Builders PDF preview" src="about:blank"></iframe>
+    </div>
+  </div>
 
   <!-- Scripts -->
   <script src="script.js"></script>
