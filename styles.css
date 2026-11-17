@@ -711,9 +711,27 @@ p {
   object-fit: cover;
 }
 
+.preview-video {
+  width: min(100%, 22rem);
+  margin: 0 auto;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-book);
+  background: var(--color-white);
+}
+
+.preview-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+}
+
 .preview-pages {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 0.75rem;
   margin-top: 1.5rem;
   max-width: 100%;
